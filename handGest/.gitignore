@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# venv
+gesture_env/
+venv/
+.env/
+.venv/
+*env/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
