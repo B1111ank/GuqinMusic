@@ -47,6 +47,8 @@ def main():
 
     print("🎥 摄像头已开启，按 'q' 退出")
 
+    cx, cy = 0,0
+
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
